@@ -85,7 +85,7 @@ while True:
 
                 elif 0.00100 < round(math.dist([xi, yi], [xt, yt]), 5) < 0.03000:
                     pyautogui.leftClick()    # Clicks the Left Mouse Button
-                    cv2.waitKey(2)
+                    cv2.waitKey(3)
                 
                 # else condition is to move the mouse pointer
                 else:
@@ -101,7 +101,7 @@ while True:
     cv2.putText(frame, 'Virtual Mouse Region', (120, 80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
 
     cv2.imshow('frame', frame)
-    k = cv2.waitKey(8)
+    k = cv2.waitKey(15)
 
     # press Esc to quit the program.
     if k == 27:
