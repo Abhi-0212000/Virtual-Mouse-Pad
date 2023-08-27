@@ -1,4 +1,4 @@
-# Virtual-Mouse-Pad
+# Virtual-Mouse-Pad | Gesture controlled mouse pad
 ## Virtual Mouse Pad & Control using OpenCV, mediapipe and pyautogui
 
 <h4>Follow this repository to implement your own __Virtual__ __Mouse__ __Pad__.</h4>
